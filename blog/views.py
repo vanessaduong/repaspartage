@@ -11,3 +11,6 @@ def convives(request):
 
 def aide(request):
     return render(request, 'blog/nousaider.html', {})
+
+def benevoles(request):
+    return render(request, 'blog/lesbenevoles.html', {})

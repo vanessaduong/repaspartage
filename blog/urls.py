@@ -20,6 +20,6 @@ urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^association/$', views.association,name='association'),
     url(r'^convives/$', views.convives,name='convives'),
-    url(r'^aide/$', views.convives,name='aide'),
-
+    url(r'^aide/$', views.aide,name='aide'),
+    url(r'^benevoles/$', views.benevoles,name='benevoles'),
 ]
