@@ -24,10 +24,9 @@
 				<ul class="links">
 					<li><a href="{% url 'index' %}">Accueil</a></li>
 					<li><a href="{% url 'association' %}">L'association</a></li>
-					<li><a href="quisommesnous.html">Les convives</a></li>
+					<li><a href="{% url 'convives' %}">Les convives</a></li>
 					<li><a href="index.html">Les bénévoles</a></li>
-					<li><a href="index.html">Déjà bénévoles</a></li>
-					<li><a href="index.html">Nous aider</a></li>
+					<li><a href="{% url 'aide' %}">Nous aider</a></li>
 					<li><a href="index.html">Contact</a></li>
 				</ul>
 			</nav>
@@ -41,9 +40,9 @@
 					<li><a href="#" class="button big special">L'association</a></li>
 				</ul>-->
 				<ul class="actions">
-					<li><a href="#" class="button big special">Les convives</a></li>
+					<li><a href="{% url 'convives' %}" class="button big special">Les convives</a></li>
 					<li><a href="#" class="button big special">Les bénévoles</a></li>
-					<li><a href="#" class="button big special">Nous aider</a></li>
+					<li><a href="{% url 'aide' %}" class="button big special">Nous aider</a></li>
 				</ul>
 			</section>
 
@@ -55,11 +54,11 @@
 						<div class="content">
 							<h2>La journée mondiale des pauvres le 19 novembre à Saint-Joseph</h2>
 							<p>Le Pape François a promulgué le dimanche 19 novembre Journée Mondiale des Pauvres. L’association solidarité chrétienne des Batignolles s'associe à cet événement à la paroisse Saint Joseph. </p>
-							<ul class="actions">
+							<!-- <ul class="actions">
 								<li>
 									<a href="#" class="button alt">Plus d'infos</a>
 								</li>
-							</ul>
+							</ul>-->
 						</div>
 					</article>
 					<article class="feature right">
@@ -67,35 +66,11 @@
 						<div class="content">
 							<h2>La collecte de la banque alimentaire du 25 novembre </h2>
 							<p>Comme chaque année, la collecte de la Banque Alimentaire se déroule le dernier week-end de novembre; nous y participons le samedi 25 novembre , dans deux supermarchés du 17ème , dont le Franprix du 28, rue des Moines. C'est une occasion précieuse, chaque année, de constituer nos réserves pour nos repas - et d'aider d'autres actions en remettant à la Mairie ce qui dépasse nos besoins, pour remise à la Banque Alimentaire.</p>
-							<ul class="actions">
+							<!-- <ul class="actions">
 								<li>
 									<a href="#" class="button alt">Plus d'infos</a>
 								</li>
-							</ul>
-						</div>
-					</article>
-					<article class="feature left">
-						<span class="image"><img src="{% static 'images/pic01.jpg' %}" alt="" /></span>
-						<div class="content">
-							<h2>Vos dons en 2017 et la réduction d’impôt !</h2>
-							<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est.</p>
-							<ul class="actions">
-								<li>
-									<a href="#" class="button alt">Plus d'infos</a>
-								</li>
-							</ul>
-						</div>
-					</article>
-					<article class="feature right">
-						<span class="image"><img src="{% static 'images/pic02.jpg' %}" alt="" /></span>
-						<div class="content">
-							<h2>Solidarité Chrétienne des Batignolles à la Journée des Associations de la Mairie du 17ème le 10 septembre prochain</h2>
-							<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est.</p>
-							<ul class="actions">
-								<li>
-									<a href="#" class="button alt">Plus d'infos</a>
-								</li>
-							</ul>
+							</ul>-->
 						</div>
 					</article>
 				</div>

@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		{% load static %}
+		<link rel="shortcut icon" href="{% static 'images/logo.ico' %}"/>
+		<title>Repas partagés</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+		<header id="header">
+			<h1><a href="{% url 'index' %}">Repas partagés</a></h1>
+			<a href="#nav">Menu</a>
+		</header>
+
+
+		<!-- Nav -->
+		<nav id="nav">
+			<ul class="links">
+				<li><a href="{% url 'index' %}">Accueil</a></li>
+				<li><a href="{% url 'association' %}">L'association</a></li>
+				<li><a href="{% url 'convives' %}">Les convives</a></li>
+				<li><a href="index.html">Les bénévoles</a></li>
+				<li><a href="{% url 'aide' %}">Nous aider</a></li>
+				<li><a href="index.html">Contact</a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+
+					<header class="major special">
+						<h2>Nous aider ?</h2>
+					</header>
+
+					<!--<a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>-->
+
+					<!-- Text -->
+						<section>
+							<p>Nos repas sont organisés grâce à l’apport de la collecte annuelle de la Banque Alimentaire à laquelle nos bénévoles participent activement. L’association est habilitée par la Direction Régionale du Ministère de l’Agriculture à recevoir de l’aide alimentaire et à en effectuer la distribution (habilitation renouvelée pour la période du 1er janvier 2018 au 31 décembre 2020).</p>
+							<p>Nous fonctionnons donc grâce aux dons.</p>
+							<header>
+								<h3>Nous aider financièrement</h3>
+							</header>
+							<p>Une trentaine de convives se retrouvent pour partager un repas complet et chaud (entrée, plat et dessert) servis à table par les bénévoles. Plus encore qu’un repas, c’est un moment de partage et de rencontre, de chaleur humaine et d’entraide</p>
+							<hr />
+
+							<header>
+								<h3>Quand et où ? </h3>
+							</header>
+							<p>Ces déjeuners ont lieu 3 fois par semaine à 12h : le jeudi au Temple de l’Église protestante Unie au 44 Boulevard des Batignolles, 75017 Paris et le mardi et le samedi dans deux paroisses du quartier Batignolles / Epinettes.</p>
+							<p>A Saint Joseph des Epinettes les convives ont la possibilité de prendre une douche et de faire leur lessive en s’inscrivant à l’avance.</p>
+
+							<hr />
+
+							<header>
+								<h3>Qui peut bénéficier des repas ? </h3>
+							</header>
+							<p>Les repas sont ouverts aux convives de tous horizons : origine ethnique, religieuse, sexe, âge (même si nous ne sommes pas habilités à accueillir les enfants)</p>
+							<p>Ils sont proposés aux personnes démunies, en priorité du quartier Batignolles Epinettes. </p>
+							<hr />
+
+							<header>
+								<h3>Combien ça coûte ?</h3>
+							</header>
+							<p>Les repas sont gratuits.</p>
+
+							<hr />
+
+							<header>
+								<h3>Que faut-il faire pour déjeuner? </h3>
+							</header>
+							<p>Se rendre à l’accueil du temple le jeudi matin de 10h30 à 11h45 afin de :</p>
+							<ol>
+								<li>dans un premier temps, s’inscrire.</li>
+								<p>Une équipe d’accueil bienveillante et compétente sera là pour vous écouter et vous orienter, et vous indiquer les conditions et documents nécessaires pour vous inscrire.</p>
+								<li>et par la suite, récupérer les tickets repas de la semaine qui donnent accès aux déjeuners.</li>
+							</ol>
+
+							<hr />
+
+							<header>
+								<h3>Quels engagements ? </h3>
+							</header>
+							<p>Nous veillons à offrir à chacun non seulement un repas mais aussi un cadre de partage et d’amitié, ce qui exige le respect de certaines règles très simples :</p>
+							<ul>
+								<li>Venir chaque fois que l’on a été inscrit pour un repas (remise d’un ticket) ou prévenir si possible si l’on a un empêchement.</li>
+								<li>Ne venir que si l’on a été inscrit, les repas ne sont prévus que pour le nombre de personnes inscrites.</li>
+								<li>Faire preuve de respect à l’égard des autres convives et des bénévoles.</li>
+							</ul>
+						</section>
+
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-facebook">
+							<span class="label">Facebook</span>
+						</a></li>
+						<li><a href="#" class="icon fa-twitter">
+							<span class="label">Twitter</span>
+						</a></li>
+						<!--<li><a href="#" class="icon fa-instagram">
+							<span class="label">Instagram</span>
+						</a></li>
+						<li><a href="#" class="icon fa-linkedin">
+							<span class="label">LinkedIn</span>
+						</a></li>-->
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Repas partagés.</li>
+						<li>Design: <a href="http://designscrazed.org/">TEMPLATE</a>.</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+		<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+		<script src="{% static 'assets/js/skel.min.js' %}"></script>
+		<script src="{% static 'assets/js/util.js' %}"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="{% static 'assets/js/main.js' %}"></script>
+
+	</body>
+</html>
