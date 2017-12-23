@@ -1,12 +1,13 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<link rel="shortcut icon" href="images/logo.ico" />
+		{% load static %}
+		<link rel="shortcut icon" href="{% static 'images/logo.ico' %}"/>
 		<title>Repas partagés</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
@@ -14,15 +15,15 @@
 
 		<!-- Header -->
 			<header id="header">
-				<h1><a href="index.html">Repas partagés</a></h1>
+				<h1><a href="{% url 'index' %}">Repas partagés</a></h1>
 				<a href="#nav">Menu</a>
 			</header>
 
 		<!-- Nav -->
 			<nav id="nav">
 				<ul class="links">
-					<li><a href="index.html">Accueil</a></li>
-					<li><a href="association.html">L'association</a></li>
+					<li><a href="{% url 'index' %}">Accueil</a></li>
+					<li><a href="{% url 'association' %}">L'association</a></li>
 					<li><a href="quisommesnous.html">Les convives</a></li>
 					<li><a href="index.html">Les bénévoles</a></li>
 					<li><a href="index.html">Déjà bénévoles</a></li>
@@ -40,7 +41,7 @@
 					</header>
 
 					<!--<a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>-->
-					
+
 					<!-- Text -->
 					<section>
 						<p>Solidarité Chrétienne des Batignolles est une association œcuménique créée en 1984 par des chrétiens, catholiques et protestants, du Nord Ouest de Paris (Temple de l’Eglise Protestante Unie du 44, Boulevard des Batignolles, paroisses catholiques Saint Joseph des Epinettes, Sainte Marie des Batignolles, et Saint Michel), devant la montée du chômage à l’époque.</p>
@@ -56,32 +57,49 @@
 								<li>Une participation annuelle à la collecte de la Banque Alimentaire qui nous procure une part importante de nos ressources.</li>
 							</ul>
 
-						<hr />
-
-						<header>
-							<h3>Nos valeurs</h3>
-						</header>
 						<p>Les valeurs qui inspirent l’action de Solidarité Chrétienne des Batignolles sont les valeurs chrétiennes de partage, de solidarité, d’éducation et de respect.</p>
 
+						<p>L’accueil des convives a lieu le jeudi au Temple de l’Église protestante Unie situé au 44 Boulevard des Batignolles, 75017 Paris où se déroule le du jeudi. Les déjeuner du mardi et du samedi se tiennent dans deux paroisses du quartier Batignolles / Epinettes.</p>
 						<hr />
 
 						<header>
-							<h3>L'accueil</h3>
+							<h3>Qui sommes nous ?</h3>
 						</header>
-						<p>Depuis plus de 30 ans, nous veillons à offrir à chacun non seulement un repas mais un cadre de partage et d’amitié, ce qui exige le respect de certaines règles très simples :
+
+						<h4>Le Conseil d’administration (* membres du bureau)</h4>
 							<ul>
-								<li>Venir chaque fois que l’on a été inscrit pour un repas (remise d’un ticket) ou prévenir si l’on a un empêchement.</li>
-								<li>Ne venir que si l’on a été inscrit, les repas ne sont prévus que pour le nombre de personnes inscrites.</li>
-								<li>Faire preuve de respect à l’égard des autres convives et des bénévoles.</li>
+								<li>Françoise Bernard, Vice Présidente (*)</li>
+								<li>Patrick Buffet, Secrétaire (*)</li>
+								<li>Xavier Corman, Président (*)</li>
+								<li>Jean-François Gombeaud</li>
+								<li>Elisabeth Groeber</li>
+								<li>Charles Jounet, Trésorier Adjoint (*)</li>
+								<li>Yves Kaeppelin, Trésorier (*)</li>
+								<li>Nicole Lafon</li>
+								<li>Monique Lejeune</li>
+								<li>Philippe Mercier</li>
+								<li>Katia Rasidy</li>
+								<li>Gisèle Salles</li>
 							</ul>
 						</p>
 
 						<hr />
 
 						<header>
-							<h3>On parle de nous</h3>
+							<h3>Comment orienter une personne en grande précarité ?</h3>
 						</header>
-						<p>Articles de presse consacrés à l’association</p>
+						<h4>Signaler</h4>
+						<p>Les habitants et les citoyens sont un relais essentiel dans le signalement des personnes en situation d’exclusion sociale. N’hésitez pas à solliciter la mairie en cas de doutes ou de questions sur la démarche à adopter si vous vous trouvez face à des personnes en difficulté. </p>
+						<p>Le site de la Mairie de Paris dispose d’une page internet recensant les structures d’aides aux personnes en grande précarité : <a href="https://www.paris.fr/services-et-infos-pratiques/social-et-solidarites/personnes-en-situation-de-precarite" class="button small special">cliquer ici </a></p>
+
+						<h4>Les bons gestes</h4>
+						<p>Le premier pas pour aider une personne à la rue est de discuter avec elle pour connaître ses besoins. </p>
+						<p>Si je repère une personne en détresse, je lui propose mon aide avant d’agir et je ne prends aucune initiative sans son accord. </p>
+						<p>Si elle souhaite se restaurer vous pouvez l’orienter vers Solidarité Chrétienne des Batignolles. </p>
+						<p>Une autre structure existe dans le Nord Ouest Parisien : Le restaurant solidaire Les Epinettes 51 rue des Epinettes, ouvert toute l’année du lundi au samedi (17h15-19h30)</p>
+						<p>Vous pouvez aussi leur recommander de se rendre au  Secours Catholique du 17ème situé au 38, rue des Apennins dans le 17ème (01 53 31 00 10).</p>
+						<p>Lien vers le guide solidarité de la mairie de paris : <a href="https://api-site-cdn.paris.fr/images/93099" class="button small special">cliquer ici </a></p>
+
 					</section>
 
 				</div>
@@ -112,11 +130,11 @@
 			</footer>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
+			<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+			<script src="{% static 'assets/js/skel.min.js' %}"></script>
+			<script src="{% static 'assets/js/util.js' %}"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+			<script src="{% static 'assets/js/main.js' %}"></script>
 
 	</body>
 </html>

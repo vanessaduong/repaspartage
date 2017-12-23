@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<link rel="shortcut icon" href="images/logo.ico" />
+		{% load static %}
+		<link rel="shortcut icon" href="{% static 'images/logo.ico' %}"/>
 		<title>Repas partagés</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		{% load static %}
 		<link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -15,15 +15,15 @@
 
 		<!-- Header -->
 			<header id="header" class="alt">
-				<h1><a href="index.html">Repas partagés</a></h1>
+				<h1><a href="{% url 'index' %}">Repas partagés</a></h1>
 				<a href="#nav">Menu</a>
 			</header>
 
 		<!-- Nav -->
 			<nav id="nav">
 				<ul class="links">
-					<li><a href="index.html">Accueil</a></li>
-					<li><a href="association.html">L'association</a></li>
+					<li><a href="{% url 'index' %}">Accueil</a></li>
+					<li><a href="{% url 'association' %}">L'association</a></li>
 					<li><a href="quisommesnous.html">Les convives</a></li>
 					<li><a href="index.html">Les bénévoles</a></li>
 					<li><a href="index.html">Déjà bénévoles</a></li>
@@ -34,7 +34,7 @@
 
 		<!-- Banner -->
 			<section id="banner">
-				<img class="img-circle" src="{% static 'images/logo.ico' %}" alt="" />
+				<a href="{% url 'association' %}"><img class="img-circle" src="{% static 'images/logo.ico' %}" alt="" /></a>
 				<h2>Repas Partagés</h2>
 				<p>Solidarité Chrétienne des Batignolles</p>
 				<!--<ul class="actions">
@@ -152,7 +152,7 @@
 							<p style="text-align:center">	<b>mailto:</b> repaspartages@free.fr</br>
 								<b>Adresse:</b> 44, Boulevard des Batignolles 75017 Paris</br>
 								<b>Retrouvez-nous sur:</b></br>
-									- <a href="https://jemengage.paris.fr/#publication-1011">paris.jemengage.fr</a></br>
+									- paris.jemengage.fr: <a href="https://jemengage.paris.fr/#publication-1011" class="button 	small special">cliquer ici </a></a></br>
 									- le guide des associations de la mairie du 17ème</br>
 								</ul>
 							</p>
