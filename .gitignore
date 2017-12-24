@@ -27,5 +27,8 @@ Temporary Items
 .apdisk
 
 # Byte-compiled / optimized / DLL files
-__pycache__/
 *.py[cod]
+*.pyc
+__pycache__
+myvenv
+db.sqlite3
