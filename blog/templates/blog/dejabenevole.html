@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		{% load static %}
+		<link rel="shortcut icon" href="{% static 'images/logo.ico' %}"/>
+		<title>Repas partagés</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+		<header id="header">
+			<h1><a href="{% url 'index' %}">Repas partagés</a></h1>
+			<a href="#nav">Menu</a>
+		</header>
+
+
+		<!-- Nav -->
+		<nav id="nav">
+			<ul class="links">
+				<li><a href="{% url 'index' %}">Accueil</a></li>
+				<li><a href="{% url 'association' %}">L'association</a></li>
+				<li><a href="{% url 'convives' %}">Les convives</a></li>
+				<li><a href="{% url 'benevoles' %}">Les bénévoles</a></li>
+				<li><a href="{% url 'aide' %}">Nous aider</a></li>
+				<li><a href="{% url 'index' %}#four">Contact</a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+
+					<header class="major special">
+						<h2>Page réservée aux bénévoles de l’association Solidarité Chrétienne des Batignolles</h2>
+					</header>
+
+					<!--<a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>-->
+
+					<!-- Text -->
+						<section>
+							<p>Chers bénévoles, </p>
+							<p>Bienvenue sur votre rubrique, réservée aux Bénévoles de Solidarité Chrétienne des Batignolles. A vous de la faire vivre ! Vous y trouverez l’actualité de l’association, des liens utiles et le rappel des informations essentielles (adresse des lieux des repas, menus, stocks). A vous la parole !</p>
+							<p>Le Conseil d’Administration</p>
+							<header>
+								<h3>L’actualité  </h3>
+							</header>
+							<h4>Le café des bénévoles </h4>
+							<img src="{% static 'images/pic02.jpg' %}" alt="" />
+							<p>Le Conseil d’Administration remercie toutes celles et tous ceux d'entre vous qui étaient présents lors du café des bénévoles du 14 octobre dernier et vous redire l'importance de ce que vous faites au sein de l'association pour nos convives. Un grand merci d'avance pour votre disponibilité !!! </p>
+							<hr />
+
+							<header>
+								<h3>Planning des bénévoles aux repas de Saint Joseph (Samedis)</h3>
+							</header>
+							<p>Vous pouvez vous inscrire en ligne en cliquant sur le lien ci-dessous vous aurez accès au planning.
+								<a href="https://docs.google.com/spreadsheets/d/1GZXfpGMsW0lCEAkHYlVUNZ5ES12hnP-QVYo5JsOf0Zg/edit?usp=sharing" class="button alt small">cliquer ici</a>
+							</p>
+							<p>Rappel des lieux des repas :</p>
+							<ul>
+								<li>Le mardi à la paroisse Saint-Michel, 3 place Saint-Jean, 75017 Paris</li>
+								<li>Le jeudi au Temple de l’Église protestante Unie 44 Boulevard des Batignolles, 75017 Paris</li>
+								<li>Le samedi à la paroisse Saint-Joseph des Épinettes, 40 rue Pouchet, 75017 Paris</li>
+							</ul>
+							<hr />
+
+							<header>
+								<h3>Je suis bénévole et alors ?</h3>
+							</header>
+							<p>Charte des  bénévoles <b>à créer</b></p>
+							<hr />
+
+							<header>
+								<h3>Suggestion de repas et répartition de l’achat des provisions </h3>
+							</header>
+							<p>Si certains bénévoles souhaitent proposer des menus pour certains repas, en accord avec l’équipe du jour, ils leur est possible d’inscrire ci-après leurs propositions <a href="https://docs.google.com/spreadsheets/d/1GZXfpGMsW0lCEAkHYlVUNZ5ES12hnP-QVYo5JsOf0Zg/edit?usp=sharing" class="button alt small">cliquer ici</a></p>
+							<p>Afin de ne pas enrichir le coût des repas le menu proposé devra utiliser au maximum les réserves disponibles. </p>
+
+							<hr />
+
+							<header>
+								<h3>Inventaire du stock</h3>
+							</header>
+							<p>Charte des  bénévoles <b>à créer</b></p>
+							<hr />
+
+							<header>
+								<h3>L’annuaire des bénévoles</h3>
+							</header>
+							<a href="#" class="button alt small">cliquer ici</a>
+							<hr />
+
+							<header>
+								<h3>A jour de votre cotisation ? </h3>
+							</header>
+							<p>Chaque bénévole doit verser sa cotisation annuelle afin d’être membre de l’association, d’avoir le droit de vote aux assemblées,  et de bénéficier de son assurance « responsabilité civile » si nécessaire. N’oubliez pas de l’adresser à notre Trésorier avant la prochaine Assemblée Générale. Le montant de cotisation est fixé pour l’année 2018 à 15 euros !</p>
+							<hr />
+
+							<header>
+								<h3>En direct du Conseil d’Administration</h3>
+							</header>
+							<p>Vous trouverez dans les liens ci-joints:</p>
+							<ul>
+								<li>Les statuts de l’Association</li>
+								<li>Le PV de la dernière Assemblée Générale</li>
+								<li>Le Rapport D’Activité</li>
+								<li>Le Rapport Financier</li>
+							</ul>
+						</section>
+
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-facebook">
+							<span class="label">Facebook</span>
+						</a></li>
+						<!--<li><a href="#" class="icon fa-instagram">
+							<span class="label">Instagram</span>
+						</a></li>
+						<li><a href="#" class="icon fa-linkedin">
+							<span class="label">LinkedIn</span>
+						</a></li>-->
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Repas partagés.</li>
+						<li>Design: <a href="http://designscrazed.org/">TEMPLATE</a>.</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+		<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+		<script src="{% static 'assets/js/skel.min.js' %}"></script>
+		<script src="{% static 'assets/js/util.js' %}"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="{% static 'assets/js/main.js' %}"></script>
+
+	</body>
+</html>
