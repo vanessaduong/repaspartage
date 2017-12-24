@@ -24,7 +24,7 @@ SECRET_KEY = 'xma9y!!)4$y-_5ni^_&#rdu)yw@=@1zjla^yld7k#l6ds2mieu'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', 'nicemimosa.pythonanywhere.com']
 
 
 # Application definition
