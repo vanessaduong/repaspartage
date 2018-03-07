@@ -30,5 +30,5 @@ Temporary Items
 *.py[cod]
 *.pyc
 __pycache__
-myvenv
+myenv
 db.sqlite3
