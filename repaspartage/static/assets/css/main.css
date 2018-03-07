@@ -1764,7 +1764,7 @@
 	}
 
 	a {
-		color: #FF7816;
+		color: #51BAA4;
 	}
 
 	strong, b {
@@ -2072,8 +2072,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #FF7816;
-			box-shadow: 0 0 0 1px #FF7816;
+			border-color: #51BAA4;
+			box-shadow: 0 0 0 1px #51BAA4;
 		}
 
 	.select-wrapper:before {
@@ -2094,14 +2094,14 @@
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
 		background-color: rgba(144, 144, 144, 0.075);
-		border-color: #FF7816;
+		border-color: #51BAA4;
 		color: #25383B;
 	}
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #FF7816;
-		box-shadow: 0 0 0 1px #FF7816;
+		border-color: #51BAA4;
+		box-shadow: 0 0 0 1px #51BAA4;
 	}
 
 	::-webkit-input-placeholder {
@@ -2654,7 +2654,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #FF7816;
+			background-color: #51BAA4;
 			box-shadow: none;
 			color: #fff !important;
 		}
@@ -2664,7 +2664,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #F05700;
+				background-color: #63c1ae;
 			}
 
 			input[type="submit"].special:active,
@@ -2681,8 +2681,8 @@
 		button.alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #FF7816;
-			color: #FF7816!important;
+			box-shadow: inset 0 0 0 2px #51BAA4;
+			color: #51BAA4 !important;
 		}
 
 			input[type="submit"].alt:hover,
@@ -2801,12 +2801,11 @@
 /* Image Circle */
 
 .img-circle {
-    border-radius: 20%;
-    margin-top: -5em;
-    margin-bottom: -3em;
-    transform: scale(0.5, 0.5);
-    -ms-transform: scale(0.5, 0.5);
-    -webkit-transform: scale(0.5, 0.5);
+    border-radius: 10%;
+    margin-bottom: -2em;
+    transform: scale(0.4, 0.4);
+    -ms-transform: scale(0.4, 0.4);
+    -webkit-transform: scale(0.4, 0.4);
 }
 
 
@@ -2879,7 +2878,7 @@
 			}
 
 			.wrapper.style1 a {
-				color: #FF7816;
+				color: #51BAA4;
 			}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2930,8 +2929,8 @@
 				.wrapper.style1 input[type="email"]:focus,
 				.wrapper.style1 select:focus,
 				.wrapper.style1 textarea:focus {
-					border-color: #FF7816;
-					box-shadow: 0 0 0 1px #FF7816;
+					border-color: #51BAA4;
+					box-shadow: 0 0 0 1px #51BAA4;
 				}
 
 			.wrapper.style1 .select-wrapper:before {
@@ -2952,14 +2951,14 @@
 			.wrapper.style1 input[type="checkbox"]:checked + label:before,
 			.wrapper.style1 input[type="radio"]:checked + label:before {
 				background-color: #fff;
-				border-color: #FF7816;
+				border-color: #51BAA4;
 				color: #555;
 			}
 
 			.wrapper.style1 input[type="checkbox"]:focus + label:before,
 			.wrapper.style1 input[type="radio"]:focus + label:before {
-				border-color: #FF7816;
-				box-shadow: 0 0 0 1px #FF7816;
+				border-color: #51BAA4;
+				box-shadow: 0 0 0 1px #51BAA4;
 			}
 
 			.wrapper.style1 ::-webkit-input-placeholder {
@@ -3057,7 +3056,7 @@
 				.wrapper.style1 input[type="button"].special,
 				.wrapper.style1 button.special,
 				.wrapper.style1 .button.special {
-					background-color: #FF7816;
+					background-color: #51BAA4;
 					box-shadow: none;
 					color: #fff !important;
 				}
@@ -3067,7 +3066,7 @@
 					.wrapper.style1 input[type="button"].special:hover,
 					.wrapper.style1 button.special:hover,
 					.wrapper.style1 .button.special:hover {
-						background-color: #F05700;
+						background-color: #63c1ae;
 					}
 
 					.wrapper.style1 input[type="submit"].special:active,
@@ -3084,8 +3083,8 @@
 				.wrapper.style1 button.alt,
 				.wrapper.style1 .button.alt {
 					background-color: transparent;
-					box-shadow: inset 0 0 0 2px #FF7816;
-					color: #FF7816!important;
+					box-shadow: inset 0 0 0 2px #51BAA4;
+					color: #51BAA4 !important;
 				}
 
 					.wrapper.style1 input[type="submit"].alt:hover,
@@ -3114,7 +3113,7 @@
 			}
 
 			.wrapper.style2 a {
-				color: #FF7816;
+				color: #51BAA4;
 			}
 
 			.wrapper.style2 strong, .wrapper.style2 b {
@@ -3165,8 +3164,8 @@
 				.wrapper.style2 input[type="email"]:focus,
 				.wrapper.style2 select:focus,
 				.wrapper.style2 textarea:focus {
-					border-color: #FF7816;
-					box-shadow: 0 0 0 1px #FF7816;
+					border-color: #51BAA4;
+					box-shadow: 0 0 0 1px #51BAA4;
 				}
 
 			.wrapper.style2 .select-wrapper:before {
@@ -3187,14 +3186,14 @@
 			.wrapper.style2 input[type="checkbox"]:checked + label:before,
 			.wrapper.style2 input[type="radio"]:checked + label:before {
 				background-color: rgba(255, 255, 255, 0.05);
-				border-color: #FF7816;
+				border-color: #51BAA4;
 				color: #fff;
 			}
 
 			.wrapper.style2 input[type="checkbox"]:focus + label:before,
 			.wrapper.style2 input[type="radio"]:focus + label:before {
-				border-color: #FF7816;
-				box-shadow: 0 0 0 1px #FF7816;
+				border-color: #51BAA4;
+				box-shadow: 0 0 0 1px #51BAA4;
 			}
 
 			.wrapper.style2 ::-webkit-input-placeholder {
@@ -3292,7 +3291,7 @@
 				.wrapper.style2 input[type="button"].special,
 				.wrapper.style2 button.special,
 				.wrapper.style2 .button.special {
-					background-color: #FF7816;
+					background-color: #51BAA4;
 					box-shadow: none;
 					color: #fff !important;
 				}
@@ -3302,7 +3301,7 @@
 					.wrapper.style2 input[type="button"].special:hover,
 					.wrapper.style2 button.special:hover,
 					.wrapper.style2 .button.special:hover {
-						background-color: #F05700;
+						background-color: #63c1ae;
 					}
 
 					.wrapper.style2 input[type="submit"].special:active,
@@ -3352,7 +3351,7 @@
 			}
 
 			.wrapper.style3 a {
-				color: #FF7816;
+				color: #51BAA4;
 			}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
@@ -3403,8 +3402,8 @@
 				.wrapper.style3 input[type="email"]:focus,
 				.wrapper.style3 select:focus,
 				.wrapper.style3 textarea:focus {
-					border-color: #FF7816;
-					box-shadow: 0 0 0 1px #FF7816;
+					border-color: #51BAA4;
+					box-shadow: 0 0 0 1px #51BAA4;
 				}
 
 			.wrapper.style3 .select-wrapper:before {
@@ -3425,14 +3424,14 @@
 			.wrapper.style3 input[type="checkbox"]:checked + label:before,
 			.wrapper.style3 input[type="radio"]:checked + label:before {
 				background-color: rgba(255, 255, 255, 0.05);
-				border-color: #FF7816;
+				border-color: #51BAA4;
 				color: #fff;
 			}
 
 			.wrapper.style3 input[type="checkbox"]:focus + label:before,
 			.wrapper.style3 input[type="radio"]:focus + label:before {
-				border-color: #FF7816;
-				box-shadow: 0 0 0 1px #FF7816;
+				border-color: #51BAA4;
+				box-shadow: 0 0 0 1px #51BAA4;
 			}
 
 			.wrapper.style3 ::-webkit-input-placeholder {
@@ -3530,7 +3529,7 @@
 				.wrapper.style3 input[type="button"].special,
 				.wrapper.style3 button.special,
 				.wrapper.style3 .button.special {
-					background-color: #FF7816;
+					background-color: #51BAA4;
 					box-shadow: none;
 					color: #fff !important;
 				}
@@ -3540,7 +3539,7 @@
 					.wrapper.style3 input[type="button"].special:hover,
 					.wrapper.style3 button.special:hover,
 					.wrapper.style3 .button.special:hover {
-						background-color: #F05700;
+						background-color: #63c1ae;
 					}
 
 					.wrapper.style3 input[type="submit"].special:active,
@@ -3901,7 +3900,7 @@
 		}
 
 		#banner a {
-			color: #FF7816;
+			color: #51BAA4;
 		}
 
 		#banner strong, #banner b {
@@ -3964,7 +3963,7 @@
 			#banner input[type="button"].special,
 			#banner button.special,
 			#banner .button.special {
-				background-color: #FF7816;
+				background-color: #51BAA4;
 				box-shadow: none;
 				color: #fff !important;
 			}
@@ -3974,7 +3973,7 @@
 				#banner input[type="button"].special:hover,
 				#banner button.special:hover,
 				#banner .button.special:hover {
-					background-color: #F05700;
+					background-color: #63c1ae;
 				}
 
 				#banner input[type="submit"].special:active,
@@ -4019,8 +4018,8 @@
 
 		#banner p {
 			color: #fff;
-			font-size: 1.25em;
-			margin: 0 5em 1.75em 5em;
+			font-size: 1.5em;
+			margin-bottom: 1.75em;
 		}
 
 		#banner .icon {
@@ -4139,7 +4138,7 @@
 		}
 
 		#footer a {
-			color: #FF7816;
+			color: #51BAA4;
 		}
 
 		#footer strong, #footer b {

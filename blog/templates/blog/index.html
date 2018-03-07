@@ -2,7 +2,7 @@
 <html>
 	<head>
 		{% load static %}
-		<link rel="shortcut icon" href="{% static 'images/logo.ico' %}"/>
+		<link rel="shortcut icon" href="{% static 'images/logo-o.png' %}"/>
 		<title>Repas partagés</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,7 +15,7 @@
 
 		<!-- Header -->
 			<header id="header" class="alt">
-				<h1><a href="{% url 'index' %}">Repas partagés</a></h1>
+				<h1><a href="{% url 'index' %} ">Repas partagés</a></h1>
 				<a href="#nav">Menu</a>
 			</header>
 
@@ -33,90 +33,17 @@
 
 		<!-- Banner -->
 			<section id="banner">
-				<a href="{% url 'association' %}"><img class="img-circle" src="{% static 'images/logo.ico' %}" alt="" /></a>
-				<h2>Repas Partagés</h2>
-				<p>Solidarité Chrétienne des Batignolles</p>
+				<a href="{% url 'association' %}"><img class="img-circle" src="{% static 'images/logo-o.png' %}" alt="" /></a>
+				<h2>Solidarité Chrétienne des Batignolles</h2>
+				<p>L’association Solidarité Chrétienne des Batignolles, située dans le Nord Ouest Parisien, offre plusieurs fois par semaine des Repas Partagés aux personnes démunies sans distinction d’origine ethnique, de sexe et de religion.</p>
 				<!--<ul class="actions">
 					<li><a href="#" class="button big special">L'association</a></li>
 				</ul>-->
 				<ul class="actions">
-					<li><a href="{% url 'convives' %}" class="button big special">Les convives</a></li>
-					<li><a href="{% url 'benevoles' %}" class="button big special">Les bénévoles</a></li>
-					<li><a href="{% url 'aide' %}" class="button big special">Nous aider</a></li>
+					<li><a href="{% url 'benevoles' %}" class="button big special">Devenir bénévole</a></li>
+					<li><a href="{% url 'convives' %}" class="button big special">Venir déjeuner</a></li>
+					<li><a href="{% url 'aide' %}" class="button big special">Faire un don</a></li>
 				</ul>
-			</section>
-
-		<!-- One -->
-			<section id="one" class="wrapper style1">
-				<div class="inner">
-					<article class="feature left">
-						<span class="image"><img src="{% static 'images/pic01.jpg' %}" alt="" /></span>
-						<div class="content">
-							<h2>La journée mondiale des pauvres le 19 novembre à Saint-Joseph</h2>
-							<p>Le Pape François a promulgué le dimanche 19 novembre Journée Mondiale des Pauvres. L’association solidarité chrétienne des Batignolles s'associe à cet événement à la paroisse Saint Joseph. </p>
-							<!-- <ul class="actions">
-								<li>
-									<a href="#" class="button alt">Plus d'infos</a>
-								</li>
-							</ul>-->
-						</div>
-					</article>
-					<article class="feature right">
-						<span class="image"><img src="{% static 'images/pic02.jpg' %}" alt="" /></span>
-						<div class="content">
-							<h2>La collecte de la banque alimentaire du 25 novembre </h2>
-							<p>Comme chaque année, la collecte de la Banque Alimentaire se déroule le dernier week-end de novembre; nous y participons le samedi 25 novembre , dans deux supermarchés du 17ème , dont le Franprix du 28, rue des Moines. C'est une occasion précieuse, chaque année, de constituer nos réserves pour nos repas - et d'aider d'autres actions en remettant à la Mairie ce qui dépasse nos besoins, pour remise à la Banque Alimentaire.</p>
-							<!-- <ul class="actions">
-								<li>
-									<a href="#" class="button alt">Plus d'infos</a>
-								</li>
-							</ul>-->
-						</div>
-					</article>
-				</div>
-			</section>
-
-		<!-- Two -->
-			<section id="two" class="wrapper special">
-				<div class="inner">
-					<header class="major">
-						<h2>Bénévoles</h2>
-						<p>Vous êtes motivé(e) par l'esprit de partage et d'ouverture aux plus fragiles.</br>
-						Vous souhaitez vous engager dans une action bénévole malgré un emploi du temps chargé.</br>
-						Donnez un peu de votre temps, ce sera déjà beaucoup!</br>
-						Et rejoignez-nous: <b>1/2 journée toutes les 4 à 6 semaines.</b>
-						</p>
-					</header>
-					<div class="image-grid">
-						<a href="#" class="image"><img src="{% static 'images/pic03.jpg' %}" alt="" /></a>
-						<a href="#" class="image"><img src="{% static 'images/pic04.jpg' %}" alt="" /></a>
-						<a href="#" class="image"><img src="{% static 'images/pic05.jpg' %}" alt="" /></a>
-						<a href="#" class="image"><img src="{% static 'images/pic06.jpg' %}" alt="" /></a>
-						<a href="#" class="image"><img src="{% static 'images/pic07.jpg' %}" alt="" /></a>
-						<a href="#" class="image"><img src="{% static 'images/pic08.jpg' %}" alt="" /></a>
-						<a href="#" class="image"><img src="{% static 'images/pic09.jpg' %}" alt="" /></a>
-						<a href="#" class="image"><img src="{% static 'images/pic10.jpg' %}" alt="" /></a>
-					</div>
-					<ul class="actions">
-						<li><a href="{% url 'benevoles' %}" class="button big alt">Rejoignez-nous!</a></li>
-					</ul>
-				</div>
-			</section>
-
-		<!-- Three -->
-			<section id="three" class="wrapper style3 special">
-				<div class="inner">
-					<header class="major narrow">
-						<h2>Nous aider</h2>
-						<p>Vous pouvez nous adresser vos dons par chèque ou par virement.</br>
-						Vos dons seront utilisés pour compléter et enrichir les repas servis à nos convives et à leur apporter des services complémentaires</br>
-						Si vous êtes <b>un commerçant</b> vous pouvez également nous verser une aide en nature et bénéficier d’une déduction fiscale</br>
-						</p>
-					</header>
-					<ul class="actions">
-						<li><a href="{% url 'aide' %}" class="button big alt">Soutenez-nous</a></li>
-					</ul>
-				</div>
 			</section>
 
 		<!-- Four -->
