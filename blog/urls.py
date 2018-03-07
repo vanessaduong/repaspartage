@@ -23,5 +23,6 @@ urlpatterns = [
     url(r'^aide/$', views.aide,name='aide'),
     url(r'^benevoles/$', views.benevoles,name='benevoles'),
     url(r'^membres/$', views.membres,name='membres'),
+    url(r'^actualite/$', views.actualite,name='actualite'),
 
 ]

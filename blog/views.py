@@ -17,3 +17,6 @@ def benevoles(request):
 
 def membres(request):
     return render(request, 'blog/dejabenevole.html', {})
+
+def actualite(request):
+    return render(request, 'blog/actualite.html', {})
