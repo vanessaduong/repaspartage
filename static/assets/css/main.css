@@ -1586,12 +1586,12 @@
 
 	body {
 		background-color: #fff;
-		color: #777;
+		color: #000;
 	}
 
 	body, input, select, textarea {
 		font-family: "Raleway", Helvetica, sans-serif;
-		font-size: 13pt;
+		font-size: 14pt;
 		font-weight: 400;
 		line-height: 2em;
 	}
@@ -1599,7 +1599,7 @@
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -1607,7 +1607,7 @@
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -1615,7 +1615,7 @@
 		@media screen and (max-width: 980px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 13pt;
 			}
 
 		}
@@ -1623,7 +1623,7 @@
 		@media screen and (max-width: 736px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 13pt;
 			}
 
 		}
@@ -1631,7 +1631,7 @@
 		@media screen and (max-width: 480px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 13pt;
 			}
 
 		}
@@ -1659,7 +1659,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 700;
 		line-height: 1em;
-		margin: 0 0 1em 0;
+		margin: 0 0 0.5em 0;
 		text-transform: uppercase;
 	}
 
@@ -1772,7 +1772,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #25383B;
+		color: #F15600;
 	}
 
 	blockquote {
@@ -1795,14 +1795,14 @@
 	}
 
 	header p {
-		margin: 0 0 1.5em 0;
+		margin: 0 0 1em 0;
 		position: relative;
 	}
 
 	header h2 + p {
 		font-size: 1.25em;
-		margin-top: -1em;
-		line-height: 1.85em;
+		margin-top: -3em;
+		line-height: 1em;
 	}
 
 	header h3 + p {
@@ -1820,7 +1820,7 @@
 	}
 
 	header.major {
-		margin-bottom: 4em;
+		margin-bottom: 2em;
 	}
 
 		header.major h2 {
@@ -2238,7 +2238,7 @@
 
 	ol {
 		list-style: decimal;
-		margin: 0 0 2em 0;
+		margin: 0 0 0.5em 0;
 		padding-left: 1.25em;
 	}
 
@@ -2248,7 +2248,7 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 0.5em 0;
 		padding-left: 1em;
 	}
 
