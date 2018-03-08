@@ -25,26 +25,29 @@
 					<li><a href="{% url 'index' %}">Accueil</a></li>
 					<li><a href="{% url 'actualite' %}">L'actualité</a></li>
 					<li><a href="{% url 'association' %}">L'association</a></li>
-					<li><a href="{% url 'convives' %}">Les convives</a></li>
-					<li><a href="{% url 'benevoles' %}">Les bénévoles</a></li>
-					<li><a href="{% url 'aide' %}">Nous aider</a></li>
+					<li><a href="{% url 'convives' %}">Venir déjeuner</a></li>
+					<li><a href="{% url 'benevoles' %}">Devenir bénévole</a></li>
+					<li><a href="{% url 'aide' %}">Faire un don</a></li>
 					<li><a href="{% url 'index' %}#four">Contact</a></li>
-					<li><a href="{% url 'login' %}">Se connecter</a></li>
+					<li><a href="{% url 'login' %}">Déjà bénévole</a></li>
 				</ul>
 			</nav>
 
 		<!-- Banner -->
 			<section id="banner">
-				<a href="{% url 'association' %}"><img class="img-circle" src="{% static 'images/logo-o.png' %}" alt="" /></a>
+				<a href="{% url 'association' %}"><img class="img-circle" src="{% static 'images/logo-t.png' %}" alt="" /></a>
 				<p style="color:orange;">L’association Solidarité Chrétienne des Batignolles, située dans le Nord Ouest Parisien, offre plusieurs fois par semaine des Repas Partagés aux personnes démunies sans distinction d’origine ethnique, de sexe et de religion.</p>
 				<!--<ul class="actions">
 					<li><a href="#" class="button big special">L'association</a></li>
 				</ul>-->
+				<p>
+					<br>
 				<ul class="actions">
 					<li><a href="{% url 'benevoles' %}" class="button big special">Devenir bénévole</a></li>
 					<li><a href="{% url 'convives' %}" class="button big special">Venir déjeuner</a></li>
 					<li><a href="{% url 'aide' %}" class="button big special">Faire un don</a></li>
 				</ul>
+				</p>
 			</section>
 
 		<!-- Four -->

@@ -2804,9 +2804,9 @@
     border-radius: 20%;
     margin-top: -5em;
     margin-bottom: -3em;
-    transform: scale(0.5, 0.5);
-    -ms-transform: scale(0.5, 0.5);
-    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.6, 0.6);
+    -ms-transform: scale(0.6, 0.6);
+    -webkit-transform: scale(0.6, 0.6);
 }
 
 
@@ -3636,7 +3636,7 @@
 		}
 
 	#header {
-		background: #07090c;
+		background: #DCDCDC;
 		color: rgba(255, 255, 255, 0.75);
 		cursor: default;
 		height: 3.25em;
