@@ -2804,6 +2804,9 @@
     border-radius: 20%;
     margin-top: -5em;
     margin-bottom: -3em;
+    transform: scale(0.6, 0.6);
+    -ms-transform: scale(0.6, 0.6);
+    -webkit-transform: scale(0.6, 0.6);
 }
 
 
@@ -4017,7 +4020,7 @@
 		#banner p {
 			color: #fff;
 			font-size: 1.25em;
-			margin: 0 5em 1.75em 5em;
+			margin-bottom: 1.75em;
 		}
 
 		#banner .icon {
