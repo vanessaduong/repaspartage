@@ -1,0 +1,623 @@
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 848, in auto_unfollow
+    user_info = all_data['user']
+KeyError: 'user'
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 848, in auto_unfollow
+    user_info = all_data['user']
+KeyError: 'user'
+ERROR:root:Except on follow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 609, in follow
+    follow = self.s.post(url_follow)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 848, in auto_unfollow
+    user_info = all_data['user']
+KeyError: 'user'
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 848, in auto_unfollow
+    user_info = all_data['user']
+KeyError: 'user'
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 848, in auto_unfollow
+    user_info = all_data['user']
+KeyError: 'user'
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 848, in auto_unfollow
+    user_info = all_data['user']
+KeyError: 'user'
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+ERROR:root:Except on get_username_by_user_id
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 405, in get_username_by_user_id
+    r = self.s.get(url_info, headers="")
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+ERROR:root:Except on follow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 616, in follow
+    insert_username(self, user_id=user_id, username=username)
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/sql_updates.py", line 74, in insert_username
+    VALUES('"+user_id+"','"+username+"','"+ str(now) +"')")
+TypeError: coercing to Unicode: need string or buffer, bool found
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 848, in auto_unfollow
+    user_info = all_data['user']
+KeyError: 'user'
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+ERROR:root:Except on get_username_by_user_id
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 405, in get_username_by_user_id
+    r = self.s.get(url_info, headers="")
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+ERROR:root:Except on follow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 616, in follow
+    insert_username(self, user_id=user_id, username=username)
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/sql_updates.py", line 74, in insert_username
+    VALUES('"+user_id+"','"+username+"','"+ str(now) +"')")
+TypeError: coercing to Unicode: need string or buffer, bool found
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 848, in auto_unfollow
+    user_info = all_data['user']
+KeyError: 'user'
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+ERROR:root:Except on get_username_by_user_id
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 405, in get_username_by_user_id
+    r = self.s.get(url_info, headers="")
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+ERROR:root:Except on follow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 616, in follow
+    insert_username(self, user_id=user_id, username=username)
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/sql_updates.py", line 74, in insert_username
+    VALUES('"+user_id+"','"+username+"','"+ str(now) +"')")
+TypeError: coercing to Unicode: need string or buffer, bool found
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 848, in auto_unfollow
+    user_info = all_data['user']
+KeyError: 'user'
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 848, in auto_unfollow
+    user_info = all_data['user']
+KeyError: 'user'
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 848, in auto_unfollow
+    user_info = all_data['user']
+KeyError: 'user'
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 848, in auto_unfollow
+    user_info = all_data['user']
+KeyError: 'user'
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+ERROR:root:Except on get_username_by_user_id
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 405, in get_username_by_user_id
+    r = self.s.get(url_info, headers="")
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+ERROR:root:Except on follow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 616, in follow
+    insert_username(self, user_id=user_id, username=username)
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/sql_updates.py", line 74, in insert_username
+    VALUES('"+user_id+"','"+username+"','"+ str(now) +"')")
+TypeError: coercing to Unicode: need string or buffer, bool found
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 848, in auto_unfollow
+    user_info = all_data['user']
+KeyError: 'user'
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+ERROR:root:Except on get_username_by_user_id
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 405, in get_username_by_user_id
+    r = self.s.get(url_info, headers="")
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+ERROR:root:Except on follow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 616, in follow
+    insert_username(self, user_id=user_id, username=username)
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/sql_updates.py", line 74, in insert_username
+    VALUES('"+user_id+"','"+username+"','"+ str(now) +"')")
+TypeError: coercing to Unicode: need string or buffer, bool found
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 848, in auto_unfollow
+    user_info = all_data['user']
+KeyError: 'user'
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+ERROR:root:Except on get_username_by_user_id
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 405, in get_username_by_user_id
+    r = self.s.get(url_info, headers="")
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+ERROR:root:Except on follow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 616, in follow
+    insert_username(self, user_id=user_id, username=username)
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/sql_updates.py", line 74, in insert_username
+    VALUES('"+user_id+"','"+username+"','"+ str(now) +"')")
+TypeError: coercing to Unicode: need string or buffer, bool found
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 848, in auto_unfollow
+    user_info = all_data['user']
+KeyError: 'user'
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+ERROR:root:Except on get_username_by_user_id
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 405, in get_username_by_user_id
+    r = self.s.get(url_info, headers="")
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(54, 'Connection reset by peer'))
+ERROR:root:Except on follow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 616, in follow
+    insert_username(self, user_id=user_id, username=username)
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/sql_updates.py", line 74, in insert_username
+    VALUES('"+user_id+"','"+username+"','"+ str(now) +"')")
+TypeError: coercing to Unicode: need string or buffer, bool found
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 848, in auto_unfollow
+    user_info = all_data['user']
+KeyError: 'user'
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(65, 'No route to host'))
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1745230991084939235/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1060569d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1745230977352630057/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x106070050>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1745230970472365509/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x106056490>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1745230707900547148/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x106070510>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1745230565303890274/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x106056650>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1745230250454774861/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x106070450>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1745229911554876941/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x106056050>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1745228630067665288/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x106070650>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1745229236330809058/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1060569d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1745228902848490061/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x106070050>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+ERROR:root:Except on like!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 569, in like
+    like = self.s.post(url_likes)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/likes/1745226802282746114/like/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x106056490>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+ERROR:root:Except on follow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 609, in follow
+    follow = self.s.post(url_follow)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/friendships/1072749041/follow/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x106070510>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+ERROR:root:Except on auto_unfollow!
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 845, in auto_unfollow
+    r = self.s.get(url_tag)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /koedaily/?__a=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x106260e10>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+ERROR:root:Except on unfollow... Looks like a network error
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 643, in unfollow_on_cleanup
+    unfollow = self.s.post(url_unfollow)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/friendships/2177337123/unfollow/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x106012150>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+ERROR:root:Except on unfollow... Looks like a network error
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 643, in unfollow_on_cleanup
+    unfollow = self.s.post(url_unfollow)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/friendships/1959201986/unfollow/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x106012090>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+ERROR:root:Except on unfollow... Looks like a network error
+Traceback (most recent call last):
+  File "/Users/vanessaduong/Documents/Dev/instabot.py/src/instabot.py", line 643, in unfollow_on_cleanup
+    unfollow = self.s.post(url_unfollow)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /web/friendships/5370194227/unfollow/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x106012390>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
